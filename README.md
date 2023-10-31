@@ -4,7 +4,7 @@ This repository contains a responsive card slider built using HTML, CSS, and Jav
 It allows you to easily create and customize a card slider for displaying images or content in a responsive and user-friendly way.
 
 ## Demo
-To see a live demo of the responsive card slider in action, visit [the demo page] (https://hari-rajan-2499.github.io/Responsive-card-slider2/).
+To see a live demo of the responsive card slider in action, visit [the demo page] (https://hari-rajan-2499.github.io/Responsive-card-slider/).
 
 ## Features
 - Responsive design: Works seamlessly on various screen sizes and devices.
