@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+
+    <!------------------------------- REMIX ICON LINK ------------------------------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+
+    <!-------------------------------- SWIPER CSS ---------------------------------------------------->
+    <link rel="stylesheet" href="/swiper-bundle.min.css">
+
+
+    <!-------------------------------- BOOSTRAP ---------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+
+    <!-------------------------------- INTERNAL CSS ------------------------------------------------->
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+
+        .swiper-button-next::after,
+        .swiper-button-prev::after {
+            font-size: 2.8rem;
+
+        }
+
+        .swiper-button-prev {
+            left: -32px;
+        }
+
+        .swiper-button-next {
+            right: -32px;
+        }
+
+        .mybutton-style {
+            font-size: clamp(0.6rem, 1vw, 1rem);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="big-container">
+        <!-- Navigation buttons -->
+        <div class="swip-pre">
+            <div class="swiper-button-prev">
+                <i class="ri-arrow-left-s-line"></i>
+            </div>
+        </div>
+        <div id="card-slider-container" class="swiper">
+            <div id="card-exact-section-container">
+                <div class="swipercards-js-style">
+                    <div class="swiper-wrapper">
+
+
+                        <div class="single-card-container swiper-slide">
+                            <div class="card-image-container">
+                                <img src="/css folder/Aatu-Erachi-Kola-Urundai-scaled.jpg" alt="">
+                            </div>
+                            <div class="card-image-intro-content">
+                                <h2>Kola-Urundai</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button type="button" class="btn btn-danger mybutton-style">view more</button>
+                            </div>
+                        </div>
+                        <div class="single-card-container swiper-slide">
+                            <div class="card-image-container">
+                                <img src="/css folder/ilaneer-payasam-munveedu-restaurant-adyar-chennai.jpg"
+                                    alt="">
+                            </div>
+                            <div class="card-image-intro-content">
+                                <h2>ilaneer payasam</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button type="button" class="btn btn-danger mybutton-style">view more</button>
+                            </div>
+                        </div>
+                        <div class="single-card-container swiper-slide">
+                            <div class="card-image-container">
+                                <img src="/css folder/Kothu-Paratha-scaled.jpg" alt="">
+                            </div>
+                            <div class="card-image-intro-content">
+                                <h2>Kothu Paratha</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button type="button" class="btn btn-danger mybutton-style">view more</button>
+                            </div>
+                        </div>
+                        <div class="single-card-container swiper-slide">
+                            <div class="card-image-container">
+                                <img src="/css folder/Kozhi-Porichathu.jpg" alt="">
+                            </div>
+                            <div class="card-image-intro-content">
+                                <h2>Kozhi Porichathu</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button type="button" class="btn btn-danger mybutton-style">view more</button>
+                            </div>
+                        </div>
+                        <div class="single-card-container swiper-slide">
+                            <div class="card-image-container">
+                                <img src="/css folder/Kozhi-Sukka.jpg" alt="">
+                            </div>
+                            <div class="card-image-intro-content">
+                                <h2>Kozhi Sukka</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button type="button" class="btn btn-danger mybutton-style">view more</button>
+                            </div>
+                        </div>
+                        <div class="single-card-container swiper-slide">
+                            <div class="card-image-container">
+                                <img src="/css folder/Madurai-Nattu-Kozhi-Idichathu-scaled.jpg" alt="">
+                            </div>
+                            <div class="card-image-intro-content">
+                                <h2>Nattu Kozhi</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <button type="button" class="btn btn-danger mybutton-style">view more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination" style="bottom: -55px;"></div>
+
+        <!-- Navigation buttons -->
+        <div class="swip-next">
+            <div class="swiper-button-next">
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+        </div>
+    </div>
+    <script src="/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

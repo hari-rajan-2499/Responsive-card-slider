@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.big-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}  
+
+.swip-pre, .swip-next{
+    position: relative;
+    width: 2vw;
+     
+}
+
+
+
+#card-slider-container{
+    width: 80vw;
+    /*padding:60px 30px;*/
+    /*position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+    
+}
+#card-exact-section-container{
+    width: 100%;
+    position: relative;
+    /*height: 50vh;*/
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+}
+.single-card-container{
+   /* width: 30%;
+    height: 50vh;*/
+    border: 1px solid #000;
+    
+}
+.card-image-container img{
+    width: 100%;
+}
+
+.card-image-intro-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 2px;
+    row-gap: 10px;
+    background-color: white;
+}
+.card-image-intro-content h2{
+  font-size: clamp(1.2rem,2vw,1.4rem);
+  margin: 0px;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-image-intro-content p{
+    text-align: center;
+    margin: 0px;
+    font-size: clamp(0.7rem,1vw,1rem);
+}
+
+
+/******************* SWIPER CLASS *********************/
+.swiper-button-prev i::before,
+.swiper-button-next i::before{
+    content:'';
+}
+
+/******************* BREAK POINTS *********************/
+/******************* FOR SMALL DEVICES *********************/
+@media screen and (max-width:320px){
+    .card-image-intro-content{
+        padding: 0.3rem;
+    } 
+
+}
+
+
+
+/******************* FOR MEDIUM DEVICES *********************/
+@media screen and (max-width:600px){
+    .swiper-button-prev::after,
+    .swiper-button-next::after{
+           display: block;
+    }
+
+}
+
+@media screen and (max-width:499.9px){
+    .swiper-button-prev::after,
+    .swiper-button-next::after{
+           display:none;
+    }
+
+}
+
+
+ /******************* FOR LARGE DEVICES *********************/
+
