@@ -1,6 +1,6 @@
 # Responsive Card Slider with Swiper.js
 
-This repository contains a responsive card slider built using HTML, CSS, and JavaScript with the Swiper.js library. 
+Developed a responsive card slider using HTML, CSS, and JavaScript with the Swiper.js library. 
 It allows you to easily create and customize a card slider for displaying images or content in a responsive and user-friendly way.
 
 ## Demo
